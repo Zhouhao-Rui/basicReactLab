@@ -3,7 +3,30 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 const Demo = () => {
   return (
-      <h1>TODO</h1>
+    <div>
+      <h1>Software System Practice -- modules table</h1>
+      <table className="table table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>No lectures</th>
+            <th>No practicals</th>
+          </tr>
+        </thead>
+        <tbody >
+          <tr>
+            <td>Agile Software Practice</td>
+            <td>2</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Web App Development</td>
+            <td>3</td>
+            <td>2</td>
+          </tr>
+        </tbody >
+      </table>
+    </div>
   );
 };
 
